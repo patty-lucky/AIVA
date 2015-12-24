@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#dadada"
+        android:weightSum="1"
+        android:layout_weight="0.02">
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="33dp"
+            android:text="Home Page"
+            android:id="@+id/textView"
+            android:textColor="#212121"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.95"
+        android:background="#ffffff"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:background="#ffffff">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:text="Read QR Code"
+                android:id="@+id/read"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:background="#fd4080" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:layout_gravity="center_horizontal" >
+
+            <Button
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:text="Regist Item"
+                android:id="@+id/regist"
+                android:layout_gravity="center_horizontal"
+                android:background="#3f51b4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="35dp">
+
+            <Button
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:text="List Items"
+                android:id="@+id/list"
+                android:layout_gravity="center_horizontal"
+                android:background="#cbcaca"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
